@@ -1,0 +1,140 @@
+.blog__signup{
+    display: flex;
+    flex-direction: column;
+}
+.blog__signup-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog__signup-image img{
+    height: 100px;
+}
+.blog__signup-form{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 4rem;
+}
+.blog__signup-form__content{
+
+    display: flex;
+    flex-direction: column;
+}
+.blog__signup-form__content label{
+
+    font-size: 18px;
+    color: #fff;
+    margin: 0.5rem;
+}
+.blog__signup-form__content input{
+    width: 450px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+}
+.blog__signup-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blog__signup-btn button{
+    height: 50px;
+    width: 200px;
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--color-subtext2);
+      padding: 0.5rem;
+      border: none;
+      border-radius: 15px;
+}
+.blog__signup-signin{
+    display: flex;
+    margin-top: 1rem;
+     justify-content: center;
+}
+.link{
+   
+    color:var(--color-subtext);
+    font-size: 18px;
+    text-align: center;
+}
+
+@media screen and (max-width:690px){
+    .blog__signup-form{
+
+        margin: 2rem 3rem;
+    }
+
+
+
+}
+@media screen and (max-width:490px){
+    .blog__signup-form{
+
+        margin: 1rem 2rem;
+    }
+    .blog__signup-form__content label{
+
+        font-size: 14px;
+        
+    }
+    .blog__signup-form__content input{
+        width: 350px;
+       
+    
+    }
+
+
+
+}
+
+@media screen and (max-width:490px){
+    .blog__signup-form{
+
+        margin: 1rem 2rem;
+    }
+    .blog__signup-form__content label{
+
+        font-size: 12px;
+        
+    }
+    .blog__signup-form__content input{
+        width: 250px;
+       
+    
+    }
+    .blog__signup-signin{
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (max-width:290px){
+    .blog__signup-form{
+
+        margin: 1rem 2rem;
+    }
+    .blog__signup-form__content label{
+
+        font-size: 12px;
+        
+    }
+    .blog__signup-form__content input{
+        width: auto;
+       
+    
+    }
+    .blog__signup-signin{
+        font-size: 12px;
+    }
+.link{
+    font-size: 11px;
+}
+
+}

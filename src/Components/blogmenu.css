@@ -1,0 +1,220 @@
+.blog__menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.blog__menu-heading{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.blog__menu-heading h1{
+    font-size: 42px;
+    color:var(--color-text);
+    font-weight: 600;
+    word-spacing: 0.04rem;
+    letter-spacing: 0.04rem;
+    line-height: 105px;
+}
+.blog__menu-heading h1:last-child{
+
+
+    font-size: 62px;
+    color: var(--color-subheading);
+    word-spacing: 0.09rem;
+    font-style: oblique;
+}
+.blog__menu-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+   
+    align-items: center;
+    justify-content: center;
+}
+.blog__menu-content-card{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    padding: 2rem 2rem;
+    margin: 4rem 1rem;
+    height: 30rem;
+    
+   
+}
+.blog__menu-content-card h2{
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--color-text);
+}
+.blog__menu-content-card p{
+
+    padding: 1rem;
+    color: var(--color-subheading);
+}
+.blog__menu-content-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog__menu-content-image img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+   
+}
+
+@media screen and (max-width:1300px){
+
+.blog__menu-content{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.blog__menu-heading h1{
+    font-size: 32px;
+    color:var(--color-text);
+    font-weight: 600;
+    word-spacing: 0.02rem;
+    letter-spacing: 0.02rem;
+   
+}
+.blog__menu-heading h1:last-child{
+
+    font-size: 52px;
+    
+    word-spacing: 0.04rem;
+   
+}
+}
+@media screen and (max-width:950px){
+
+    .blog__menu-content{
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    .blog__menu-heading h1{
+        font-size: 25px;
+        
+        word-spacing: 0.02rem;
+        letter-spacing: 0.02rem;
+       
+    }
+    .blog__menu-heading h1:last-child{
+    
+        font-size: 45px;
+        
+        word-spacing: 0.04rem;
+       
+    }
+    .blog__menu-content-card{
+       
+        height: auto;
+        
+       
+    }
+    }
+
+    @media screen and (max-width:850px){
+
+        .blog__menu-content{
+        
+            display: grid;
+            grid-template-columns: 1fr;
+        
+        }
+        .blog__menu-heading h1{
+            font-size: 25px;
+            
+            line-height: 80px;
+           
+        }
+        .blog__menu-heading h1:last-child{
+        
+            font-size: 45px;
+            
+            word-spacing: 0.04rem;
+           
+        }
+        }
+        @media screen and (max-width:750px){
+
+          
+            .blog__menu-heading h1{
+                font-size: 20px;
+                line-height: 55px;
+               
+               
+            }
+            .blog__menu-heading h1:last-child{
+            
+                font-size: 40px;
+                
+                
+               
+            }
+            }
+
+            
+        @media screen and (max-width:610px){
+
+           
+            .blog__menu-heading h1{
+                font-size: 15px;
+                line-height: 55px;
+               
+               
+            }
+            .blog__menu-heading h1:last-child{
+            
+                font-size: 35px;
+                
+                
+               
+            }
+            }
+
+            @media screen and (max-width:480px){
+
+           
+                .blog__menu-heading h1{
+                    font-size: 10px;
+                    line-height: 40px;
+                   
+                   
+                }
+                .blog__menu-heading h1:last-child{
+                
+                    font-size: 30px;
+                    
+                    
+                   
+                }
+               
+                }
+
+                @media screen and (max-width:350px){
+
+           
+                    .blog__menu-heading h1{
+                        font-size: 8px;
+                        line-height: 20px;
+                       
+                       
+                    }
+                    .blog__menu-heading h1:last-child{
+                    
+                        font-size: 25px;
+                        
+                        
+                       
+                    }
+                   
+                    }
+    
+                

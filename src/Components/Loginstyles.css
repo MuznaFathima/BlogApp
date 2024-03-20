@@ -1,0 +1,151 @@
+.blog__login{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0rem;
+/* background-color: #faf3eb; */
+}
+.blog__login-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.blog__login-image img{
+    height: 100px;
+}
+.blog__login-form{
+   display: flex;
+  
+justify-content: center;
+align-items: center;
+margin: 2rem 4rem;
+
+}
+
+.blog__login-form__content{
+    display: flex;
+    flex-direction: column;
+}
+.blog__login-form__content label{
+
+    font-size: 18px;
+    color: #fff;
+    margin: 0.5rem;
+}
+.blog__login-form__content input{
+    width: 450px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
+   padding: 1rem;
+
+}
+
+
+.blog__login-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blog__login-btn button{
+    height: 50px;
+    width: 200px;
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--color-subtext2);
+      padding: 0.5rem;
+      border: none;
+      border-radius: 15px;
+
+}
+.blog__login-btn{
+    font-size: 15px;
+    color: var(--color-subheading);
+    word-spacing: 0.08rem;
+}
+
+.blog__login-signup{
+    display: flex;
+   margin-top: 1rem;
+    justify-content: center;
+
+}
+
+.link{
+   
+    color:var(--color-subtext);
+    font-size: 18px;
+    text-align: center;
+}
+@media screen and (max-width:690px){
+    .blog__login-form{
+
+        margin: 2rem 3rem;
+    }
+
+
+
+}
+@media screen and (max-width:490px){
+    .blog__login-form{
+
+        margin: 1rem 2rem;
+    }
+    .blog__login-form__content label{
+
+        font-size: 14px;
+        
+    }
+    .blog__login-form__content input{
+        width: 350px;
+       
+    
+    }
+
+
+
+}
+
+@media screen and (max-width:490px){
+    .blog__login-form{
+
+        margin: 1rem 2rem;
+    }
+    .blog__login-form__content label{
+
+        font-size: 12px;
+        
+    }
+    .blog__login-form__content input{
+        width: 250px;
+       
+    
+    }
+
+
+}
+
+@media screen and (max-width:290px){
+    .blog__login-form{
+
+        margin: 1rem 2rem;
+    }
+    .blog__login-form__content label{
+
+        font-size: 12px;
+        
+    }
+    .blog__login-form__content input{
+        width: auto;
+       
+    
+    }
+    .blog__login-signup{
+        font-size: 12px;
+    }
+
+
+}

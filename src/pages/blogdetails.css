@@ -1,0 +1,180 @@
+.blog__blogdetails{
+    display: flex;
+    margin: 0rem 2rem;
+    
+}
+.blog__blogdetails-image img{
+    height:80px;
+    width: 80px;
+    border-radius: 50%
+
+}
+.blog__blogdetails-heading{
+    flex: 1;
+    margin-left: 1rem;
+   
+} 
+.blog__blogdetails-heading h1{
+   
+    color: var(--color-text);
+}
+.blog__blogdetails-heading p{
+ 
+    color: var(--color-subheading);
+    
+}
+.blog__blogdetails-category{
+    display: flex;
+   
+flex-direction: row;
+column-gap: 10px;
+align-items: center;
+ 
+}
+.blog__blogdetails-category p{
+    color:var(--color-subheading)
+}
+.blog__blogdetails-category p:last-child{
+    color: var(--color-subtext);
+    font-size: 20px;
+}
+.blog__blogdetails-content{
+    margin: -5rem 4rem;
+    
+}
+.blog__blogdetails-content p{
+
+  
+    color: var(--color-text);
+    font-size: 18px;
+    margin-bottom: 50px;
+
+   
+
+}
+.blog__blogdetails-content button{
+
+    flex: 0.6;
+    min-height: 40px;
+    width: 20%;
+    font-size: 18px;
+    line-height: 22px;
+    
+color: #FFFFFF;
+background:var(--color-subtext3);
+
+cursor: pointer;
+outline: none;
+padding: 0 1rem;
+border: none;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px; 
+}
+@media screen and (max-width:1050px){
+    .blog__blogdetails-content{
+       position: relative;
+   margin: -5rem 2rem;
+       font-size: 1rem;
+    }
+.blog__blogdetails-content button{
+    font-size: 11px;
+}
+.blog__blogdetails-content p{
+
+    font-size: 16px;
+
+   
+   
+
+}
+}
+ @media screen and (max-width:830px){
+    
+.blog__blogdetails-content button{
+    font-size: 12px;
+   
+    width: auto;
+}
+.blog__blogdetails-content p{
+
+   
+    font-size: 14px;
+   
+
+}
+.blog__blogdetails-content {
+ margin: -5rem 2rem;
+}
+ }
+
+
+@media screen and (max-width:650px){
+
+    .blog__blogdetails{
+
+        display: flex;
+        flex-direction: column;
+         align-items: center;
+    
+    }
+    .blog__blogdetails-heading h1{
+        text-align: center;
+    }
+    .blog__blogdetails-heading p{
+        text-align: center;
+    }
+    .blog__blogdetails-content{
+        margin: -5rem 0rem;
+    }
+    .blog__blogdetails-content button {
+        font-size: 9px;
+   
+        width: auto;
+        margin-bottom: 30px;
+
+    }
+    .blog__blogdetails-content p{
+
+      font-size: 12px;
+    
+    }
+
+}
+
+
+@media screen and (max-width:490px){
+    .blog__blogdetails-content{
+        margin: -5rem 0rem;
+    }
+    .blog__blogdetails-content button {
+        font-size: 9px;
+      padding: 1rem;
+        width: auto;
+        margin-bottom: 30px;
+
+    }
+ 
+
+
+}
+@media screen and (max-width:390px){
+    .blog__blogdetails-content{
+        margin: -5rem 0rem;
+    }
+
+    .blog__blogdetails-content button {
+        font-size: 9px;
+        padding: 1rem;
+      width: auto;
+      margin-bottom: 30px;
+    }
+
+.blog__blogdetails-content p{
+
+   
+    font-size: 12px;
+    
+
+}
+
+}

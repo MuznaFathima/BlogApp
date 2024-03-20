@@ -1,0 +1,43 @@
+.blog__footer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-text);
+    
+}
+.blog__footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+.blog__footer-contact{
+   text-align: center;
+   margin: 2rem 2rem;
+}
+.blog__footer-copyright{
+    text-align: center;
+    font-size: 19px;
+    word-spacing: 0.1rem;
+}
+@media screen and (max-width:490px){
+    .blog__footer{
+        width: auto;
+        height: auto;
+    }
+
+}
+@media screen and (max-width:390px){
+    .blog__footer{
+        width: auto;
+        height: auto;
+    }
+    .blog__footer-contact{
+        font-size: 13px;
+    }
+    .blog__footer-copyright{
+        font-size: 14px;
+    }
+
+}
